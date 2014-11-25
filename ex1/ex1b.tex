@@ -7,7 +7,12 @@
 \begin{align*}
 	\qcVar{Z}{V}_t &= \qcVar{\int_0^\cdot z_s dX_s}{\int_0^\cdot v dY_s}_t\\
 &= \int_0^t z_s v_s d \qcVar{X}{Y}_s\\
-&= \int_0^t z_s v_s d \qcVar{X}{Y}_s
+&= \int_0^t z_s v_s d \qcVar{\int x_s dW^1_s}{\int y_s dW^2_s}_s\\
+&= \int_0^t z_s v_s d \lb \int_0^t x_s y_s d \underbrace{\qcVar{W^1}{W^2}}
+_{\qcVar{B^1}{aB^1+bB^2}} \rb \\ 
+&= \int_0^t z_s v_s d \lb \int_0^t x_s y_s d \lb a \underbrace{\qcVar{B^1}{B^1}}_{=t} 
++b \underbrace{\qcVar{B^1}{B^2}}_{=0} \rb \rb \\
+&= \int_0^t z_s v_s d \lb \int_0^t x_s y_s d at \rb
 \end{align*}
 
 
