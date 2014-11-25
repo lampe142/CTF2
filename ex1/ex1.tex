@@ -25,9 +25,11 @@
 \end{align*}
 
 \begin{align*}
-	\corr{W^1_t}{W^2_t} &= \frac{\Cov{W^1_t}{W^2_t}}{\sigma_{W_1}\sigma_{W_2}}\\ 
-	&= \frac{\Cov{B^1_t}{aB^1 + b B^2}}{\sigma_{W_1}\sigma_{W_2}}\\
-	&= \frac{a \Cov{B^1}{B^1} + b\Cov{B^1}{B^2}}{\sigma_{B^1} \sigma_{a B^1 + b B^2}}
+	\corr{W^1_t}{W^2_t} &= \frac{\Cov{W^1_t}{W^2_t}}{\sigma_{W^1_t}\sigma_{W^2_t}}\\ 
+	&= \frac{\Cov{B^1_t}{aB^1_t + b B^2_t}}  {\sigma_{W^1_t}\sigma_{W^2_t}} \\
+	&= \frac{a \Cov{B^1_t}{B^1_t} + b\Cov{B^1_t}{B^2_t}}{\sigma_{B^1_t} \sigma_{a B^1_t + b B^2_t}}\\
+	&= \frac{a \Cov{B^1_t}{B^1_t} + b\Cov{B^1_t}{B^2_t}}{ a b \sigma_{B^1_t}^2 \sigma_{B^2_t}}\\
+	&= \frac{a}{ a b t \sqrt{t}} = b^{-1} t^{-\frac{3}{2}}
 \end{align*}
 
 \end{document}
