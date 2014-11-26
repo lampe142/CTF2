@@ -4,5 +4,14 @@
 
 
 \includegraphics[width=\textwidth]{ex2.png}
+\subsection*{a)}
+\begin{align*}
+	\qcVar{M}{N}_t &= \qcVar{M}{N_0 + \int_0^t H_s dM_s + L_t}_t\\
+	&= \qcVar{M}{N_0} + \qcVar{M}{\int_0^t H_s dM_s} + \qcVar{M}{L_t}\\
+	&= \qcVar{\int_0^t 1 dM_s}{\int_0^t H_s dM_s}\\
+	&= \int_0^t 1 H_s d \qcVar{M_s}{M_s}\\
+	&= \int_0^t H_s d \qVar{M_s}
+\end{align*}
+
 
 \end{document}
