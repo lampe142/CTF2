@@ -27,9 +27,11 @@
 \begin{align*}
 	\corr{W^1_t}{W^2_t} &= \frac{\Cov{W^1_t}{W^2_t}}{\sigma_{W^1_t}\sigma_{W^2_t}}\\ 
 	&= \frac{\Cov{B^1_t}{aB^1_t + b B^2_t}}  {\sigma_{W^1_t}\sigma_{W^2_t}} \\
-	&= \frac{a \Cov{B^1_t}{B^1_t} + b\Cov{B^1_t}{B^2_t}}{\sigma_{B^1_t} \sigma_{a B^1_t + b B^2_t}}\\
-	&= \frac{a \Cov{B^1_t}{B^1_t} + b\Cov{B^1_t}{B^2_t}}{ a b \sigma_{B^1_t}^2 \sigma_{B^2_t}}\\
-	&= \frac{at}{ a b t \sqrt{t}} = \frac{1}{b\sqrt{t}} 
+	&= \frac{a \Cov{B^1_t}{B^1_t} + b\Cov{B^1_t}{B^2_t}}{\sigma_{B^1_t} \sigma_{a B^1_t + b B^2_t}}
+	\textbf{, since } \sigma_{a B^1_t + b B^2_t} = \sqrt{\lb a^2+b^2 \rb t} \\
+	&= \frac{a \Cov{B^1_t}{B^1_t} + b\Cov{B^1_t}{B^2_t}}{ \sqrt{t} \sqrt{\lb a^2+b^2 \rb t}}\\
+	&= \frac{at}{  t \sqrt{a^2+b^2}} \\
+	 &= \frac{a}{\sqrt{a^2+b^2}} = \rho
 \end{align*}
 
 \end{document}
