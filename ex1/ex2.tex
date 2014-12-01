@@ -43,17 +43,11 @@ H_t = \frac{[S^1, S^2]_t}{[S^1]_t} = \frac{[\int_0^. \sigma_1 S_s^1 d B^1_s, \in
 \end{equation}
 
 To find $L_t$ we just need to insert $H_t$ into the characterization and we get:
-\begin{equation}
-S^2_t =  S_0^2 + \int_0^t \frac{ \rho \sigma_2 S_t^2}{\sigma_1 S_t^1} d s + L_t
-\end{equation}
-\begin{equation}
-L_t = S^2_t - S_0^2 - \int_0^t \frac{ \rho \sigma_2 S_s^2}{\sigma_1 S_s^1} d s
-\end{equation}
-\begin{equation}
-L_t = \int_0^t S^2_s d s - \int_0^t \frac{ \rho \sigma_2 S_s^2}{\sigma_1 S_s^1} d s
-\end{equation}
-\begin{equation}
-L_t = \int_0^t S^2_s (1 - \frac{ \rho \sigma_2}{\sigma_1 S_s^1}) d s
-\end{equation}
+\begin{align*}
+S^2_t &=  S_0^2 + \int_0^t \frac{ \rho \sigma_2 S_t^2}{\sigma_1 S_t^1} d s + L_t \\
+L_t &= S^2_t - S_0^2 - \int_0^t \frac{ \rho \sigma_2 S_s^2}{\sigma_1 S_s^1} d s \\
+ &= \int_0^t S^2_s d s - \int_0^t \frac{ \rho \sigma_2 S_s^2}{\sigma_1 S_s^1} d s\\
+ &= \int_0^t S^2_s (1 - \frac{ \rho \sigma_2}{\sigma_1 S_s^1}) d s
+\end{align*}
 
 \end{document}
