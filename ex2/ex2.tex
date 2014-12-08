@@ -21,14 +21,11 @@ We choose $\tilde{P}$ equal to the Wiener measure and we get:
 \end{equation}
 
 To maximize the exponential is to maximize its argument. We derive w.r.t. $\theta$ and set equal to zero:
-\begin{equation}
-\kappa \hat{X}_t - \kappa^2(\theta - \hat{X}_t) t = 0
-\end{equation}
-\begin{equation}
-\frac{ \hat{X}_t }{ \kappa } = \theta - \hat{X}_t
-\end{equation}
-\begin{equation}
-\hat{\theta}_{MLE} = \frac{ \hat{X}_t }{ \kappa } + \hat{X}_t = \hat{X}_t (1 + \frac{ 1 }{ \kappa })
-\end{equation}
+
+\begin{align*}
+\kappa \hat{X}_t - \kappa^2(\theta - \hat{X}_t) t &= 0 \\
+\frac{ \hat{X}_t }{ \kappa t } &= \theta - \hat{X}_t \\
+\hat{\theta}_{MLE} = \frac{ \hat{X}_t }{ \kappa t } + \hat{X}_t &= \hat{X}_t (1 + \frac{ 1 }{ \kappa })
+\end{align*}
 
 \end{document}

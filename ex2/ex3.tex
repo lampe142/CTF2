@@ -4,22 +4,19 @@
 
 \includegraphics[width=\textwidth]{ex3.png}
 
-\section{Exercise 3}
-\begin{equation}
+\begin{equation*}
 Z_t = exp(M_t - \frac{1}{2} [M]_t)
-\end{equation}
+\end{equation*}
 For strictly positive processes ln and exp are bijective transformations. We use Ito's formula:
-\begin{equation}
-exp(ln(Z_t)) = exp(ln(Z_0) + \int_0^t \frac{1}{Z_s} d Z_s - \frac{1}{2} \int_0^t \frac{1}{(Z_s)^2} d[Z]_s)
-\end{equation}
-\begin{equation}
-Z_t = exp(ln(Z_0) + \int_0^t \frac{1}{Z_s} d Z_s - \frac{1}{2} [\int_0^. \frac{1}{Z_s} d Z_s]_t)
-\end{equation}
+\begin{align*}
+exp(ln(Z_t)) &= exp(ln(Z_0) + \int_0^t \frac{1}{Z_s} d Z_s - \frac{1}{2} \int_0^t \frac{1}{(Z_s)^2} d[Z]_s)\\
+Z_t &= exp(ln(Z_0) + \int_0^t \frac{1}{Z_s} d Z_s - \frac{1}{2} [\int_0^. \frac{1}{Z_s} d Z_s]_t)
+\end{align*}
 
 Integrals with respect to a martingale are martingales. We can therefore conclude that:
-\begin{equation}
+\begin{equation*}
 M_t = \int_0^t \frac{1}{Z_s} d Z_s
-\end{equation}
+\end{equation*}
 
 
 
