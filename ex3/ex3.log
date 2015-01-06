@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.5)  6 JAN 2015 13:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.5)  6 JAN 2015 19:50
 entering extended mode
 **C:/Users/Alex/Documents/CTF2/ex3/ex3.tex
 (C:/Users/Alex/Documents/CTF2/ex3/ex3.tex
@@ -418,37 +418,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 30.
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
 [1{C:/Users/Alex/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
  <C:/Users/Alex/Documents/CTF2/ex3/ex3.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 30.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
  (C:\Users\Alex\Documents\CTF2\ex3\ex3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 30.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 30.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
 Package rerunfilecheck Info: File `ex3.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 6626 strings out of 493921
- 94913 string characters out of 3144880
- 176478 words of memory out of 3000000
+ 6628 strings out of 493921
+ 94937 string characters out of 3144880
+ 178478 words of memory out of 3000000
  9829 multiletter control sequences out of 15000+200000
  6439 words of font info for 27 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 38i,12n,45p,310b,327s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,12n,45p,439b,327s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on ex3.pdf (1 page, 136711 bytes).
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on ex3.pdf (1 page, 146686 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 5 named destinations out of 1000 (max. 500000)
+ 61 PDF objects out of 1000 (max. 8388607)
+ 7 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
