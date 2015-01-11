@@ -25,13 +25,21 @@ therefore we can substitud back into the equation \eqref{eq:itoProduct} and get
 \end{align}
 applying Girsanov, 2-dimensions $W_{t,1} = \tilde{W}_{t,1} + \int_0^t \theta_{s,1} ds$ and that $\tilde{W}$ is a Brownian Motion under Q.	
 \begin{align}
-	= e^{-rt} \lb \mu_s S_t dt + e^{V_t} S_t \lb d\tilde{W}_{t,1} + \theta_{d,1} dt \rb \rb  - S r e^{-rt} dt \\
+	= e^{-rt} \lb \mu_s S_t dt + e^{V_t} S_t \lb d\tilde{W}_{t,1} + \theta_{d,1} dt \rb \rb  - S r e^{-rt} dt
 \end{align}
 
-\begin{align}
-	-r + \mu_s + e^{V_t} \theta_{t,1} =0 \\
-	\theta_{t,1} = \frac{r-\mu_s}{e^{V_t}}
-\end{align}
+\begin{align*}
+	\tilde{S_0} &= E^Q_0 \lb \tilde{S} \rb \\
+	\tilde{S_0} &= E^Q_0 \lb 	\tilde{S_0} +  e^{-rt} \lb \int_0^t \mu_s S_u du 
+	+ \int_0^t e^{V_u} S_u d\tilde{W}_{u,1} + \int_0^t \theta_{d,1} du \rb  - \int_0^t S r e^{-ru} du
+ \rb 
+\end{align*}
+Since linearity of the expectation  and $E\lb \int f dW \rb =0$ we get 
+\begin{align*}
+0 &=	-re^{-rt} S_t + e^{-rt} \mu_S S_t + e^{V_t -rt} S_t \theta_{t,1} \\
+0 &=	-r + \mu_s + e^{V_t} \theta_{t,1}  \\
+	\theta_{t,1} &= \frac{r-\mu_s}{e^{V_t}}
+\end{align*}
 The same reasoning also works for $\tilde{V}$ and $\theta_{t,2}$
 \begin{align*}
 	d \tilde{V} = e^{-rt} d V_t - V_t r e^{-rt} dt \\
