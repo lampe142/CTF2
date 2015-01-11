@@ -3,22 +3,21 @@
 \section*{Exercise 1:}
 
 \includegraphics[width=\textwidth]{ex1.png}
-Conversely 
 \begin{itemize}
 	\item $\theta$ must be adapted so $\theta_t$ has to be  $\mathcal{F}_t$ measurable for all $t$ \\ 
 	\item $P \lb \frac{dQ}{dP} > 0 \rb =1 $
 	\item $1 = E \lb \frac{dQ}{dP} \rb$ 
 \end{itemize}
 
-For $Q$ being a equivalent martingale measure the discounted asset price process $\tilde{S} = \frac{S}{S^0}$ with \\ 
+For $Q$ being a equivalent martingale measure the discounted asset price process $\tilde{S_t} = \frac{S_t}{S^0_t}$ with \\ 
 Since r is constant $S^0 (t) = exp \lb \int_0^t r_s ds \rb = exp(rt)$  has to be a martingale so $\tilde{S_0}= E^Q_0 \lb \tilde{S} \rb$.\\
 
 applying Ito's product formula to $\tilde{S}$ gives
 \begin{align}
-	d \tilde{S} = d \frac{S}{S^0}
-	= \frac{1}{S^0} d S + S d \frac{1}{S^0}  \label{eq:itoProduct}
+	d \tilde{S_t} = d \frac{S_t}{S^0_t}
+	= \frac{1}{S^0_t} d S + S d \frac{1}{S^0_t}  \label{eq:itoProduct}
   \end{align}
-We see that $S^0=e^{rt}$ solves the ODE $d \frac{1}{S^0}=-r \frac{1}{S^0} dt$
+We see that $S^0=e^{rt}$ solves the ODE $d \frac{1}{S^0_t}=-r \frac{1}{S^0_t} dt$
 therefore we can substitud back into the equation \eqref{eq:itoProduct} and get
 \begin{align}
 	d \tilde{S} &= e^{-rt} d S - S r e^{-rt} dt \\
